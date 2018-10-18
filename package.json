@@ -2,6 +2,7 @@
   "name": "lighthouse-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mattyao-cotd.github.io/lighthouse-react-demo/",
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -11,7 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lh": "lighthouse-ci"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -23,7 +25,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "cz-conventional-changelog": "^2.1.0"
+    "cz-conventional-changelog": "^2.1.0",
+    "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git"
   },
   "config": {
     "commitizen": {
